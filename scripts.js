@@ -9,4 +9,12 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     } else {
         alert('Please fill in all fields.');
     }
+    
 });
+
+function myFunction2() {
+    document.getElementById("demo").innerHTML = "Front-end Dev";
+}
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Back-end Dev";
+}
