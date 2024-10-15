@@ -8,13 +8,5 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert('Thank you for your message!');
     } else {
         alert('Please fill in all fields.');
-    }
-    
+    } 
 });
-
-function myFunction2() {
-    document.getElementById("demo").innerHTML = "Front-end Dev";
-}
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Back-end Dev";
-}
