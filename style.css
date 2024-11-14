@@ -6,9 +6,32 @@ body {
 }
 
 header {
-    background: #333435;
+    background: #0380fd;
     color: #fff;
     padding: 10px 0;
+}
+
+.banner {
+    background-image: url(./explore\ the\ world.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 1.5em;
+    margin: 0;
 }
 
 header h1 {
